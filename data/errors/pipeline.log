@@ -12,3 +12,9 @@
 2026-06-11 22:15:29,882 - INFO - Dataset limpio guardado en: data/clean/cafe_sales_clean.csv
 2026-06-11 22:15:29,883 - INFO - === ETAPA 2 FINALIZADA CON ÉXITO ===
 
+2026-06-11 22:26:06,936 - INFO - === INICIANDO ETAPA 3: VALIDACIÓN ESTRUCTURAL Y SEMÁNTICA ===
+2026-06-11 22:26:06,949 - INFO - Dataset cargado para validación. Registros a evaluar: 8613
+2026-06-11 22:26:24,048 - INFO - Registros válidos guardados en: data/validated/cafe_sales_validated.csv
+2026-06-11 22:26:24,048 - INFO - Registros con errores guardados en: data/errors/cafe_sales_errors.csv
+2026-06-11 22:26:24,048 - INFO - === ETAPA 3 FINALIZADA CON ÉXITO ===
+
