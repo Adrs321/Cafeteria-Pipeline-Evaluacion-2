@@ -4,3 +4,11 @@
 2026-06-11 21:41:59,096 - INFO - Copia del Raw Dataset guardada exitosamente en: data/raw/dirty_cafe_sales.csv
 2026-06-11 21:41:59,097 - INFO - === ETAPA 1 FINALIZADA CON ÉXITO ===
 
+2026-06-11 22:15:29,816 - INFO - === INICIANDO ETAPA 2: LIMPIEZA Y TRANSFORMACIÓN ===
+2026-06-11 22:15:29,847 - INFO - Se eliminaron 969 filas por no tener un 'Item' válido.
+2026-06-11 22:15:29,857 - INFO - Transformación 1 aplicada: Columna derivada 'Total_Spent_Calculado' creada.
+2026-06-11 22:15:29,859 - INFO - Transformación 2 aplicada: Texto en columna 'Item' normalizado (Strip + Title).
+2026-06-11 22:15:29,864 - INFO - Transformación 3 aplicada: Columna 'Transaction Date' convertida a formato DateTime homogéneo.
+2026-06-11 22:15:29,882 - INFO - Dataset limpio guardado en: data/clean/cafe_sales_clean.csv
+2026-06-11 22:15:29,883 - INFO - === ETAPA 2 FINALIZADA CON ÉXITO ===
+
