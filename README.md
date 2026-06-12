@@ -1,4 +1,4 @@
-# Pipeline de Datos Completo: Ingesta → Limpieza → Validación → Carga 🚀
+# Pipeline de Datos Completo: Ingesta → Limpieza → Validación → Carga 
 **Asignatura:** Gestión De Datos Para IA  
 **Evaluación:** Evaluación Grupal — Unidad 2  
 
