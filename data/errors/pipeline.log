@@ -1,0 +1,6 @@
+2026-06-11 21:41:59,064 - INFO - === INICIANDO ETAPA 1: INGESTA DE DATOS ===
+2026-06-11 21:41:59,064 - INFO - Cargando datos desde: dirty_cafe_sales.csv
+2026-06-11 21:41:59,075 - INFO - Calculando estadísticas iniciales del Raw Dataset...
+2026-06-11 21:41:59,096 - INFO - Copia del Raw Dataset guardada exitosamente en: data/raw/dirty_cafe_sales.csv
+2026-06-11 21:41:59,097 - INFO - === ETAPA 1 FINALIZADA CON ÉXITO ===
+
