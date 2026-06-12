@@ -18,3 +18,39 @@
 2026-06-11 22:26:24,048 - INFO - Registros con errores guardados en: data/errors/cafe_sales_errors.csv
 2026-06-11 22:26:24,048 - INFO - === ETAPA 3 FINALIZADA CON ÉXITO ===
 
+2026-06-11 22:32:12,724 - INFO - === INICIANDO ETAPA 4: CARGA A BASE DE DATOS ===
+2026-06-11 22:32:12,739 - INFO - Conexión exitosa a la base de datos: cafe_data.db
+2026-06-11 22:32:12,901 - INFO - Transacción EXITOSA. Se cargaron 8613 registros mediante COMMIT.
+2026-06-11 22:32:12,901 - INFO - Ejecutando consultas SQL de verificación...
+2026-06-11 22:32:12,904 - INFO - === ETAPA 4 FINALIZADA CON ÉXITO ===
+2026-06-11 22:43:21,489 - INFO - ==================================================
+2026-06-11 22:43:21,489 - INFO - INICIANDO EJECUCIÓN DEL PIPELINE AUTOMATIZADO
+2026-06-11 22:43:21,489 - INFO - ==================================================
+2026-06-11 22:43:21,489 - INFO - === INICIANDO ETAPA 1: INGESTA DE DATOS ===
+2026-06-11 22:43:21,489 - INFO - Cargando datos desde: dirty_cafe_sales.csv
+2026-06-11 22:43:21,505 - INFO - Calculando estadísticas iniciales del Raw Dataset...
+2026-06-11 22:43:21,525 - INFO - Copia del Raw Dataset guardada exitosamente en: data/raw/dirty_cafe_sales.csv
+2026-06-11 22:43:21,525 - INFO - === ETAPA 1 FINALIZADA CON ÉXITO ===
+
+2026-06-11 22:43:21,525 - INFO - === INICIANDO ETAPA 2: LIMPIEZA Y TRANSFORMACIÓN ===
+2026-06-11 22:43:21,554 - INFO - Se eliminaron 969 filas por no tener un 'Item' válido.
+2026-06-11 22:43:21,561 - INFO - Transformación 1 aplicada: Columna derivada 'Total_Spent_Calculado' creada.
+2026-06-11 22:43:21,563 - INFO - Transformación 2 aplicada: Texto en columna 'Item' normalizado (Strip + Title).
+2026-06-11 22:43:21,566 - INFO - Transformación 3 aplicada: Columna 'Transaction Date' convertida a formato DateTime homogéneo.
+2026-06-11 22:43:21,588 - INFO - Dataset limpio guardado en: data/clean/cafe_sales_clean.csv
+2026-06-11 22:43:21,588 - INFO - === ETAPA 2 FINALIZADA CON ÉXITO ===
+
+2026-06-11 22:43:21,588 - INFO - === INICIANDO ETAPA 3: VALIDACIÓN ESTRUCTURAL Y SEMÁNTICA ===
+2026-06-11 22:43:21,604 - INFO - Dataset cargado para validación. Registros a evaluar: 8613
+2026-06-11 22:43:39,951 - INFO - Registros válidos guardados en: data/validated/cafe_sales_validated.csv
+2026-06-11 22:43:39,951 - INFO - Registros con errores guardados en: data/errors/cafe_sales_errors.csv
+2026-06-11 22:43:39,952 - INFO - === ETAPA 3 FINALIZADA CON ÉXITO ===
+
+2026-06-11 22:43:39,952 - INFO - === INICIANDO ETAPA 4: CARGA A BASE DE DATOS ===
+2026-06-11 22:43:39,965 - INFO - Conexión exitosa a la base de datos: cafe_data.db
+2026-06-11 22:43:40,140 - INFO - Transacción EXITOSA. Se cargaron 8613 registros mediante COMMIT.
+2026-06-11 22:43:40,141 - INFO - Ejecutando consultas SQL de verificación...
+2026-06-11 22:43:40,143 - INFO - === ETAPA 4 FINALIZADA CON ÉXITO ===
+2026-06-11 22:43:40,144 - INFO - ==================================================
+2026-06-11 22:43:40,144 - INFO - ¡PIPELINE EJECUTADO CON ÉXITO DE EXTREMO A EXTREMO!
+2026-06-11 22:43:40,144 - INFO - ==================================================
